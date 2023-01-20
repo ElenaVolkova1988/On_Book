@@ -1,0 +1,21 @@
+# создать список, добавить, удалить элементы, сортировка по алфавиту, в обратном порядке, узнать длину списка
+days_week=['monday', 'tuesday', ' wednesday', ' thursday', ' friday', ' saturday', 'sunday']
+# print(days_week)
+# print(days_week[2])
+# print(days_week[6].title())
+# days_week.append('Days')
+# print(days_week)
+# days_week.insert(0,'Week')
+# print(days_week)
+# del days_week[1]
+# print(days_week)
+# past=days_week.pop(-3 )
+# print(past)
+# print(days_week)
+my_list=sorted(days_week)
+print (days_week)
+print(my_list)
+days_week.sort(reverse=True)
+print (days_week)
+print(len(days_week))
+print(days_week[-1].title())
